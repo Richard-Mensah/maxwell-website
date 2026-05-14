@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Professional profile website for Maxwell Kwadwo Baidoo.">
     <title>Maxwell Kwadwo Baidoo | Development Leader</title>
+    <link rel="icon" type="image/png" href="/assets/images/maxwell-logo.png">
     <link rel="preload" href="/assets/images/hero-speaking.jpg" as="image">
     <link rel="stylesheet" href="/styles.css">
   </head>
   <body data-page="home">
     <header class="site-header" aria-label="Primary navigation">
       <a class="brand" href="/" aria-label="Maxwell Kwadwo Baidoo home">
-        <span class="brand-mark">MB</span>
+        <span class="brand-mark"><img src="/assets/images/maxwell-logo.png" alt=""></span>
         <span>Maxwell Kwadwo Baidoo</span>
       </a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
@@ -39,6 +40,7 @@
           <div class="hero-actions">
             <a class="button primary" href="/contact">Invite Maxwell</a>
             <a class="button secondary" href="/impact">View Impact</a>
+            <a class="button secondary" data-phone-link href="tel:+233247434025">+233 24 743 4025</a>
           </div>
         </div>
       </section>
@@ -55,6 +57,7 @@
             This website presents Maxwell's work through separate pages for his profile, public impact,
             development agenda, full image gallery and contact inquiries.
           </p>
+          <p id="home-message"></p>
           <a class="button text-button" href="/profile">Read Profile</a>
         </div>
         <div class="portrait-panel">
@@ -65,11 +68,30 @@
           </div>
         </div>
       </section>
+
+      <section class="section">
+        <div class="section-heading wide">
+          <p class="eyebrow">Why Maxwell</p>
+          <h2>A credible development voice for youth, education, resources and regional transformation.</h2>
+        </div>
+        <div class="feature-grid" id="home-highlights"></div>
+      </section>
+
+      <section class="gallery-section">
+        <div class="section-heading">
+          <p class="eyebrow">Field Presence</p>
+          <h2>Work visible in communities, schools and institutions.</h2>
+        </div>
+        <div class="gallery" id="featured-gallery"></div>
+        <div class="section-cta">
+          <a class="button text-button" href="/gallery">Open Full Gallery</a>
+        </div>
+      </section>
     </main>
 
     <footer class="site-footer">
       <p>Maxwell Kwadwo Baidoo</p>
-      <p>Development leadership, agribusiness and natural resources advocacy.</p>
+      <p>Development leadership, agribusiness and natural resources advocacy. <span id="footer-phone"></span></p>
     </footer>
     <script src="/app.js" defer></script>
   </body>

@@ -3,9 +3,13 @@
   "title": "Development Leader, Agribusiness Professional and Natural Resources Advocate",
   "location": "Sefwi Humjibre, Western North Region, Ghana",
   "currentRole": "President, Western North Development Association (WENDA)",
-  "intro": "Maxwell Kwadwo Baidoo is a development-focused leader whose work connects youth opportunity, responsible natural-resource governance, education access and regional advocacy in Ghana's Western North Region.",
+  "phone": "+233 24 743 4025",
+  "phoneHref": "tel:+233247434025",
+  "intro": "Maxwell Kwadwo Baidoo is a development-focused leader whose work connects youth opportunity, responsible natural-resource governance, education access, agribusiness thinking and regional advocacy in Ghana's Western North Region.",
+  "homeMessage": "From student leadership at KNUST to civic development work through WENDA, Maxwell has built a reputation for practical service: mobilizing people, opening opportunity for young talent, advocating for responsible natural-resource stewardship and translating regional needs into visible action.",
   "heroImage": "/assets/images/hero-speaking.jpg",
   "portraitImage": "/assets/images/ceremony-portrait.jpg",
+  "logoImage": "/assets/images/maxwell-logo.png",
   "stats": [
     {
       "value": "30+",
@@ -21,7 +25,7 @@
     },
     {
       "value": "2",
-      "label": "peace campaigns led around national elections"
+      "label": "major peace campaigns supported around national elections"
     }
   ],
   "focusAreas": [
@@ -30,12 +34,65 @@
     "Agribusiness management",
     "Natural resources stewardship",
     "Education access and scholarships",
-    "Anti-galamsey advocacy"
+    "Anti-galamsey advocacy",
+    "Public-private development partnerships",
+    "Career guidance and employability"
+  ],
+  "homeHighlights": [
+    {
+      "title": "A Voice for Western North Development",
+      "body": "Maxwell advocates for practical development priorities including a regional university, a regional hospital, stronger school infrastructure and opportunity pipelines for young people.",
+      "image": "/assets/images/regional-advocacy.jpg"
+    },
+    {
+      "title": "Youth Opportunity Builder",
+      "body": "His leadership has connected students and graduates to scholarships, internships, national service opportunities, career guidance and confidence-building mentorship.",
+      "image": "/assets/images/school-outreach.jpg"
+    },
+    {
+      "title": "Responsible Resource Advocate",
+      "body": "With a background in Natural Resources Management, he brings credibility to advocacy against illegal mining and for sustainable community development.",
+      "image": "/assets/images/ceremony-portrait.jpg"
+    }
   ],
   "biography": [
-    "Maxwell hails from Sefwi Humjibre in the Bibiani-Anhwiaso-Bekwai Municipality of the Western North Region of Ghana. He began his basic education at Humjibre M/A Primary School and Humjibre Anglican Junior High School before studying General Science at Ghana Secondary Technical School in Takoradi.",
-    "He earned a Bachelor's degree in Natural Resources Management from Kwame Nkrumah University of Science and Technology in 2019, completed national service with the Forest Services Division in Bibiani, and later returned to KNUST for postgraduate studies in Agribusiness Management.",
-    "His leadership journey has included service with RENARSA-KNUST, NUSSA-KNUST, NASPA in Bibiani-Anhwiaso-Bekwai, NUSSA-National and WENDA, where he has advanced student outreach, career guidance, sanitation, scholarships, internships, employment pathways and regional development advocacy."
+    "Maxwell hails from Sefwi Humjibre in the Bibiani-Anhwiaso-Bekwai Municipality of the Western North Region of Ghana. His story is rooted in the communities he now serves, beginning at Humjibre M/A Primary School and Humjibre Anglican Junior High School before he continued to Ghana Secondary Technical School in Takoradi, where he studied General Science.",
+    "In 2015, he gained admission to Kwame Nkrumah University of Science and Technology, where he pursued Natural Resources Management and completed his undergraduate studies in 2019. He later served with the Forest Services Division in Bibiani, gaining direct exposure to the realities of environmental governance, forestry administration and community-level resource protection.",
+    "Maxwell returned to KNUST in 2023 for postgraduate study in Agribusiness Management, strengthening his ability to connect natural resources, enterprise, food systems and youth livelihoods. This combination of technical education and civic leadership gives his work a rare balance: he understands policy, but he also understands the people and places policy must serve.",
+    "His leadership journey spans RENARSA-KNUST, NUSSA-KNUST, NASPA in Bibiani-Anhwiaso-Bekwai, NUSSA-National and the Western North Development Association. Across these platforms, he has consistently focused on education access, youth mentorship, sanitation, peace-building, internship placement, scholarship facilitation and responsible development advocacy.",
+    "As President of WENDA, Maxwell continues to champion a development agenda that places young people, schools, local institutions and vulnerable communities at the center of progress. His leadership style is calm, practical and deeply community-facing: he brings stakeholders together, listens for the real need, and works until a tangible result is visible."
+  ],
+  "credentials": [
+    {
+      "title": "Natural Resources Management",
+      "body": "Bachelor's degree from KNUST with a foundation in conservation, environmental governance and resource stewardship."
+    },
+    {
+      "title": "Agribusiness Management",
+      "body": "Postgraduate training from KNUST, expanding his perspective on enterprise, agriculture, livelihoods and regional economic opportunity."
+    },
+    {
+      "title": "WENDA Leadership",
+      "body": "Served as General Secretary before appointment as President, helping strengthen partnerships, advocacy and youth-focused interventions."
+    },
+    {
+      "title": "Student and Alumni Mobilization",
+      "body": "Held leadership roles across student, alumni and national service platforms, building trust among youth, professionals and institutions."
+    }
+  ],
+  "leadershipPrinciples": [
+    {
+      "title": "Service Before Visibility",
+      "body": "Maxwell's work is measured by scholarships secured, students mentored, communities supported and stakeholders mobilized."
+    },
+    {
+      "title": "Development With Evidence",
+      "body": "He frames advocacy around practical needs: schools, hospitals, youth skills, employment pathways and responsible resource use."
+    },
+    {
+      "title": "Youth As Partners",
+      "body": "His leadership consistently challenges young people, especially women, to take responsibility and discover their leadership potential."
+    }
   ],
   "timeline": [
     {
@@ -44,7 +101,7 @@
     },
     {
       "year": "2018",
-      "event": "Elected Vice President of NUSSA-KNUST, leading outreach and career guidance initiatives."
+      "event": "Elected Vice President of NUSSA-KNUST, leading outreach and career guidance initiatives for students from the Western North Region."
     },
     {
       "year": "2019",
@@ -52,11 +109,15 @@
     },
     {
       "year": "2019",
-      "event": "Elected NASPA Vice President in Bibiani-Anhwiaso-Bekwai and appointed Alumni Coordinator for NUSSA-National."
+      "event": "Elected NASPA Vice President in Bibiani-Anhwiaso-Bekwai, supporting sanitation exercises and educational donations."
+    },
+    {
+      "year": "2019",
+      "event": "Appointed Alumni Coordinator for NUSSA-National and supported donations, learning materials, placements, anti-galamsey advocacy and peace-building."
     },
     {
       "year": "2021",
-      "event": "Appointed General Secretary of WENDA, supporting scholarships, youth placements and development partnerships."
+      "event": "Appointed General Secretary of WENDA, helping grow the association's scholarship, partnership and advocacy work."
     },
     {
       "year": "2023",
@@ -64,29 +125,65 @@
     },
     {
       "year": "2025",
-      "event": "Appointed President of WENDA."
+      "event": "Appointed President of WENDA after distinguished service and an established record of regional leadership."
     }
   ],
   "impact": [
     {
       "title": "Scholarships and Student Access",
-      "body": "Through WENDA and strategic recommendations, Maxwell helped open scholarship pathways, including full tuition opportunities for about 30 students at KAAF University.",
+      "body": "Through WENDA and strategic recommendations, Maxwell helped open scholarship pathways, including full tuition opportunities for about 30 students at KAAF University under the Founder's Scholarship established by Michael Aidoo.",
       "image": "/assets/images/partnership-announcement.jpg"
     },
     {
       "title": "Youth Leadership and Mentorship",
-      "body": "He continues to coach young people, especially young women, to take up leadership responsibilities and break barriers in their communities.",
+      "body": "He intentionally coaches young people across the Western North Region, especially young women, to take up leadership responsibilities, break barriers and recognize their potential as builders of their communities.",
       "image": "/assets/images/school-outreach.jpg"
     },
     {
       "title": "Education Support",
-      "body": "As WENDA President, he led support for 500 BECE candidates through the donation of mathematical sets and pens across the Western North Region.",
+      "body": "As WENDA President, he led support for 500 BECE candidates through the donation of mathematical sets and pens, strengthening student readiness at a critical point in their academic journey.",
       "image": "/assets/images/bece-donation.jpg"
     },
     {
-      "title": "Regional Advocacy",
-      "body": "His agenda includes advocacy for a university, a regional hospital, school infrastructure support and stronger partnerships across public, private and nonprofit actors.",
+      "title": "Regional Development Advocacy",
+      "body": "His agenda includes advocacy for a university, a regional hospital, improved school infrastructure and stronger partnerships across public, private and nonprofit actors.",
       "image": "/assets/images/regional-advocacy.jpg"
+    },
+    {
+      "title": "Peace and Civic Responsibility",
+      "body": "Maxwell has supported major peace campaigns ahead of national elections, encouraging young people and community actors to protect stability while participating responsibly in civic life.",
+      "image": "/assets/images/wenda-congratulations.jpg"
+    },
+    {
+      "title": "Anti-Galamsey Advocacy",
+      "body": "His natural resources background informs his advocacy against illegal mining and its negative effects on land, water, livelihoods and the future of resource-dependent communities.",
+      "image": "/assets/images/ceremony-portrait.jpg"
+    }
+  ],
+  "agendaPriorities": [
+    {
+      "title": "A University for the Region",
+      "body": "Sustained advocacy for a higher education institution that can reduce access barriers, retain talent and build specialized capacity in the Western North Region."
+    },
+    {
+      "title": "A Regional Hospital",
+      "body": "Support for stronger health infrastructure that matches the region's growing population, economic activity and development needs."
+    },
+    {
+      "title": "Youth Pathways to Work",
+      "body": "Partnerships that connect students and graduates to scholarships, internships, national service placements, employability support and decent work."
+    },
+    {
+      "title": "Responsible Natural Resource Governance",
+      "body": "Community awareness, institutional collaboration and advocacy against destructive illegal mining practices."
+    },
+    {
+      "title": "School Infrastructure and Learning Support",
+      "body": "Practical assistance to schools and candidates through learning materials, infrastructure advocacy and support from development partners."
+    },
+    {
+      "title": "Partnership-Led Development",
+      "body": "Convening NGOs, private sector organizations, government institutions, traditional leaders and youth groups around shared outcomes."
     }
   ],
   "services": [
@@ -110,11 +207,11 @@
   "gallery": [
     {
       "image": "/assets/images/hero-speaking.jpg",
-      "caption": "Speaking at a leadership and community engagement event"
+      "caption": "Speaking during a leadership and community engagement program"
     },
     {
       "image": "/assets/images/school-outreach.jpg",
-      "caption": "School outreach and BECE candidate support"
+      "caption": "Supporting students through school outreach and examination readiness"
     },
     {
       "image": "/assets/images/wenda-citation.jpg",
@@ -122,7 +219,7 @@
     },
     {
       "image": "/assets/images/wenda-congratulations.jpg",
-      "caption": "WENDA congratulatory and civic leadership engagement"
+      "caption": "Civic leadership engagement with WENDA partners"
     }
   ]
 }

@@ -4,12 +4,20 @@ const fallbackProfile = {
   location: "Western North Region, Ghana",
   currentRole: "President, Western North Development Association (WENDA)",
   intro: "Development leader advancing opportunity in Ghana's Western North Region.",
+  homeMessage: "",
+  phone: "+233 24 743 4025",
+  phoneHref: "tel:+233247434025",
   heroImage: "/assets/images/hero-speaking.jpg",
   portraitImage: "/assets/images/ceremony-portrait.jpg",
+  logoImage: "/assets/images/maxwell-logo.png",
   stats: [],
   focusAreas: [],
+  homeHighlights: [],
   biography: [],
+  credentials: [],
+  leadershipPrinciples: [],
   impact: [],
+  agendaPriorities: [],
   services: [],
   timeline: [],
   gallery: []
@@ -119,6 +127,69 @@ function renderFeaturedGallery(profile) {
     .join("");
 }
 
+function renderHomeHighlights(profile) {
+  const target = document.querySelector("#home-highlights");
+  if (!target) return;
+  target.innerHTML = profile.homeHighlights
+    .map(
+      (item) => `
+        <article class="feature-card">
+          <img src="${escapeHtml(item.image)}" alt="${escapeHtml(item.title)}">
+          <div>
+            <h3>${escapeHtml(item.title)}</h3>
+            <p>${escapeHtml(item.body)}</p>
+          </div>
+        </article>
+      `
+    )
+    .join("");
+}
+
+function renderCredentials(profile) {
+  const target = document.querySelector("#credentials-grid");
+  if (!target) return;
+  target.innerHTML = profile.credentials
+    .map(
+      (item) => `
+        <article class="quiet-card">
+          <h3>${escapeHtml(item.title)}</h3>
+          <p>${escapeHtml(item.body)}</p>
+        </article>
+      `
+    )
+    .join("");
+}
+
+function renderLeadershipPrinciples(profile) {
+  const target = document.querySelector("#principles-grid");
+  if (!target) return;
+  target.innerHTML = profile.leadershipPrinciples
+    .map(
+      (item) => `
+        <article class="principle-card">
+          <h3>${escapeHtml(item.title)}</h3>
+          <p>${escapeHtml(item.body)}</p>
+        </article>
+      `
+    )
+    .join("");
+}
+
+function renderAgendaPriorities(profile) {
+  const target = document.querySelector("#agenda-priorities");
+  if (!target) return;
+  target.innerHTML = profile.agendaPriorities
+    .map(
+      (item) => `
+        <article class="priority-card">
+          <h3>${escapeHtml(item.title)}</h3>
+          <p>${escapeHtml(item.body)}</p>
+        </article>
+      `
+    )
+    .join("");
+}
+
 async function renderFullGallery() {
   const target = document.querySelector("#gallery-grid");
   if (!target) return;
@@ -148,16 +219,28 @@ function renderProfile(profile) {
   setText("#hero-title", profile.name);
   setText("#hero-role", profile.currentRole);
   setText("#hero-copy", profile.intro);
+  setText("#home-message", profile.homeMessage);
   setText("#page-title-name", profile.name);
   setText("#location", profile.location);
   setText("#title-line", profile.title);
+  setText("#contact-phone", profile.phone);
+  setText("#footer-phone", profile.phone);
+  const phoneLinks = document.querySelectorAll("[data-phone-link]");
+  phoneLinks.forEach((link) => {
+    link.href = profile.phoneHref;
+    link.textContent = profile.phone;
+  });
   setImage("#hero-image", profile.heroImage, `${profile.name} speaking at an event`);
   setImage("#portrait-image", profile.portraitImage, `${profile.name} at a civic ceremony`);
 
   renderStats(profile);
+  renderHomeHighlights(profile);
   renderBiography(profile);
   renderFocus(profile);
+  renderCredentials(profile);
+  renderLeadershipPrinciples(profile);
   renderImpact(profile);
+  renderAgendaPriorities(profile);
   renderServices(profile);
   renderTimeline(profile);
   renderFeaturedGallery(profile);

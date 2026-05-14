@@ -144,10 +144,44 @@ function isValidEmail(value) {
 }
 
 function captionFromFilename(filename) {
-  const base = path.basename(filename, path.extname(filename));
-  return base
-    .replace(/[-_]+/g, " ")
-    .replace(/\b\w/g, (letter) => letter.toUpperCase());
+  const professionalCaptions = [
+    "Community leadership and stakeholder engagement",
+    "Regional development advocacy in action",
+    "Public service engagement with community leaders",
+    "Civic leadership and institutional partnership",
+    "Youth empowerment and education support",
+    "WENDA partnership and development collaboration",
+    "School outreach and candidate support",
+    "Leadership presence at a formal community event",
+    "Engagement with traditional and civic stakeholders",
+    "Education access and learning-materials support",
+    "Youth mentorship and regional opportunity building",
+    "Development advocacy with local institutions"
+  ];
+
+  const lower = filename.toLowerCase();
+  if (lower.includes("whatsappbusiness") || lower.includes("wenda-new")) {
+    return "WENDA communication highlighting development partnership and civic engagement";
+  }
+
+  if (lower.includes("img-1010")) {
+    return "WENDA and AFRIDELF partnership announcement for development collaboration";
+  }
+
+  if (lower.includes("bibiani")) {
+    return "WENDA leadership presentation and municipal recognition";
+  }
+
+  if (lower.includes("yomi")) {
+    return "Formal leadership moment during a public engagement";
+  }
+
+  if (lower.includes("20260430")) {
+    return "School outreach supporting BECE candidates in the Western North Region";
+  }
+
+  const index = Math.abs([...filename].reduce((sum, char) => sum + char.charCodeAt(0), 0));
+  return professionalCaptions[index % professionalCaptions.length];
 }
 
 function getGalleryImages() {

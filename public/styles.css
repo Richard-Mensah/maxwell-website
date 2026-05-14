@@ -61,12 +61,19 @@ a {
 
 .brand-mark {
   display: grid;
-  width: 42px;
-  height: 42px;
+  width: 48px;
+  height: 48px;
   place-items: center;
   border: 1px solid rgba(255, 255, 255, 0.42);
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.12);
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.92);
+}
+
+.brand-mark img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .site-nav {
@@ -362,6 +369,91 @@ h3 {
   max-width: 950px;
 }
 
+.section-lede {
+  max-width: 780px;
+  color: var(--muted);
+  font-size: 1.08rem;
+  line-height: 1.7;
+}
+
+.muted-section {
+  max-width: none;
+  padding-right: max(20px, calc((100vw - 1220px) / 2 + 42px));
+  padding-left: max(20px, calc((100vw - 1220px) / 2 + 42px));
+  background: var(--mist);
+}
+
+.feature-grid,
+.quiet-grid,
+.principles-grid,
+.priority-grid {
+  display: grid;
+  gap: 18px;
+}
+
+.feature-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.feature-card {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: white;
+  box-shadow: 0 18px 46px rgba(19, 32, 25, 0.08);
+}
+
+.feature-card img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+}
+
+.feature-card div {
+  padding: 24px;
+}
+
+.feature-card p,
+.quiet-card p,
+.principle-card p,
+.priority-card p {
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.quiet-grid,
+.priority-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.quiet-card,
+.principle-card,
+.priority-card {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 24px;
+  background: white;
+}
+
+.principles-grid {
+  grid-template-columns: 1fr;
+}
+
+.principle-card {
+  background: var(--mist);
+}
+
+.priority-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.priority-card {
+  min-height: 210px;
+  background:
+    linear-gradient(180deg, rgba(255, 253, 248, 0.94), rgba(255, 253, 248, 1)),
+    linear-gradient(135deg, rgba(47, 143, 100, 0.16), rgba(212, 154, 36, 0.12));
+}
+
 .focus-list {
   display: flex;
   flex-wrap: wrap;
@@ -483,6 +575,11 @@ h3 {
   max-width: 1220px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.section-cta {
+  max-width: 1220px;
+  margin: 28px auto 0;
 }
 
 .gallery {
@@ -629,6 +726,20 @@ textarea:focus {
   border-radius: 8px;
 }
 
+.contact-phone {
+  display: inline-flex;
+  min-height: 48px;
+  align-items: center;
+  width: fit-content;
+  margin-top: 12px;
+  border-radius: 999px;
+  padding: 0 18px;
+  color: #102118;
+  background: var(--gold);
+  font-weight: 900;
+  text-decoration: none;
+}
+
 .form-status {
   grid-column: 1 / -1;
   min-height: 24px;
@@ -700,6 +811,9 @@ textarea:focus {
 
   .impact-grid,
   .service-grid,
+  .feature-grid,
+  .quiet-grid,
+  .priority-grid,
   .gallery,
   .gallery-grid {
     grid-template-columns: 1fr;
