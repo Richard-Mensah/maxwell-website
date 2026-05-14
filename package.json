@@ -1,0 +1,22 @@
+{
+  "name": "maxwell-kwadwo-baidoo-website",
+  "version": "1.0.0",
+  "description": "Professional full-stack profile website for Maxwell Kwadwo Baidoo.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "pg": "^8.13.1"
+  },
+  "keywords": [
+    "maxwell",
+    "wenda",
+    "ghana",
+    "leadership",
+    "agribusiness"
+  ],
+  "author": "",
+  "license": "UNLICENSED"
+}

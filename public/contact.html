@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Contact Maxwell Kwadwo Baidoo.">
+    <title>Contact | Maxwell Kwadwo Baidoo</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body data-page="contact">
+    <header class="site-header" aria-label="Primary navigation">
+      <a class="brand" href="/" aria-label="Maxwell Kwadwo Baidoo home"><span class="brand-mark">MB</span><span>Maxwell Kwadwo Baidoo</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span></button>
+      <nav id="site-nav" class="site-nav">
+        <a href="/profile">Profile</a>
+        <a href="/impact">Impact</a>
+        <a href="/agenda">Agenda</a>
+        <a href="/gallery">Gallery</a>
+        <a href="/contact">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section class="page-hero">
+        <p class="eyebrow">Contact</p>
+        <h1>Contact</h1>
+        <p>Invite Maxwell for partnerships, speaking, advisory work or development programs.</p>
+      </section>
+      <section class="contact-section">
+        <div class="contact-copy">
+          <p class="eyebrow">Inquiry</p>
+          <h2>Share the opportunity, institution and desired outcome.</h2>
+          <p>
+            Use the form to begin a conversation around speaking, partnerships, youth programs, media or advisory work.
+          </p>
+        </div>
+        <form class="contact-form" id="contact-form">
+          <label>Name<input name="name" type="text" autocomplete="name" required></label>
+          <label>Email<input name="email" type="email" autocomplete="email" required></label>
+          <label>Organization<input name="organization" type="text" autocomplete="organization"></label>
+          <label>
+            Interest
+            <select name="interest">
+              <option>Speaking invitation</option>
+              <option>Partnership</option>
+              <option>Youth program</option>
+              <option>Media inquiry</option>
+              <option>Advisory work</option>
+            </select>
+          </label>
+          <label class="full">Message<textarea name="message" rows="6" required></textarea></label>
+          <button class="button primary full" type="submit">Send Inquiry</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+    <footer class="site-footer"><p>Maxwell Kwadwo Baidoo</p><p>Development leadership, agribusiness and natural resources advocacy.</p></footer>
+    <script src="/app.js" defer></script>
+  </body>
+</html>
