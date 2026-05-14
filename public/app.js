@@ -9,7 +9,7 @@ const fallbackProfile = {
   phoneHref: "tel:+233247434025",
   heroImage: "/assets/images/hero-speaking.jpg",
   portraitImage: "/assets/images/ceremony-portrait.jpg",
-  logoImage: "/assets/images/maxwell-logo.png",
+  logoImage: "/assets/images/maxwell-new-logo.png",
   stats: [],
   focusAreas: [],
   homeHighlights: [],
